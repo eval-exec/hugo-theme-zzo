@@ -59,8 +59,8 @@
   url = "https://cdn.jsdelivr.net/npm/viz.js@2.1.2/full.render.js"
 
 [js.typewriter]
-  sri = "sha256-TitFDAuVGXWTqg0oaoFr2A8Ai8vF1uaslKaTkL74mGk="
-  url = "https://unpkg.com/typewriter-effect@2.21.0/dist/react.js"
+  sri = "sha256-QTcSGhQ7fbRR+bse3nGAYDdfGa9h6cT9Xv/2ZyPbA9k="
+  url = "https://unpkg.com/typewriter-effect@2.13.1/dist/react.js"
 
 
 
