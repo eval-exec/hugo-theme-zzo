@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "languagedir" | default "ltr" }}">
 
+  <img src="../../../logo.png" width="100%">
+
 <head prefix="og: http://ogp.me/ns#">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,7 +37,7 @@
     <div id="container">
         {{ partial "body/main-left" . }}
         <div class="wrapper" data-type="{{ .Type }}" data-kind="{{ .Kind }}">
-            {{ partial "navbar/site-nav" . }}
+            <!-- {{ partial "navbar/site-nav" . }} -->
             {{ partial "header/site-header" . }}
             {{ block "main" . }}{{ end }}
             {{ partial "body/custom-body" . }}
